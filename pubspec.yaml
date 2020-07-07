@@ -43,6 +43,24 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+  fonts:
+    - family: BellotaText
+      fonts:
+        - asset: fonts/BellotaText-Light.ttf
+          weight: 300
+        - asset: fonts/BellotaText-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: fonts/BellotaText-Regular.ttf
+        - asset: fonts/BellotaText-Italic.ttf
+          style: italic
+        - asset: fonts/BellotaText-Bold.ttf
+          weight: 700
+        - asset: fonts/BellotaText-BoldItalic.ttf
+          weight: 700
+          style: italic
+ 
+
 
   # To add assets to your application, add an assets section, like this:
   # assets:
