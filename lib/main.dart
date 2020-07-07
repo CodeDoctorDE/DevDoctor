@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'theme.dart' as theme;
+import 'package:devdoctor/theme.dart' as theme;
 
 void main() {
   runApp(MyApp());
@@ -21,7 +21,8 @@ class MyApp extends StatelessWidget {
           // or simply save your changes to "hot reload" in a Flutter IDE).
           // Notice that the counter didn't reset back to zero; the application
           // is not restarted.
-          primarySwatch: theme.mdcThemePrimary,
+          primarySwatch: theme.mdcPrimarySwatch,
+          primaryColor: theme.mdcThemePrimary,
           accentColor: theme.mdcThemeSecondary,
           // This makes the visual density adapt to the platform that you run
           // the app on. For desktop platforms, the controls will be smaller and
