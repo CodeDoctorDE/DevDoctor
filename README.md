@@ -15,7 +15,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/CodeDoctorDE/DevDoctor">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo-dark.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">D e v D o c t o r</h3>
