@@ -3,8 +3,19 @@ import 'package:material_design_icons_flutter/material_design_icons_flutter.dart
 
 class MainActions extends StatelessWidget {
   final dynamic items = [
+    {"text": "Dashboard", "icon": MdiIcons.viewDashboard, "value": "settings"},
     {"text": "Settings", "icon": MdiIcons.cogs, "value": "settings"},
     {"text": "Profile", "icon": MdiIcons.account, "value": "profile"},
+    {
+      "text": "My wikis",
+      "icon": MdiIcons.fileMultipleOutline,
+      "value": "profile"
+    },
+    {
+      "text": "Downloads",
+      "icon": MdiIcons.downloadMultiple,
+      "value": "profile"
+    },
     {"text": "Logout", "icon": MdiIcons.logoutVariant, "value": "logout"}
   ];
   @override
